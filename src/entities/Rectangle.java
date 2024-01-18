@@ -1,6 +1,6 @@
 package entities;
 
-public class Rectangle extends Shape{
+public class Rectangle extends AbstractColor{
     public Rectangle(String color1) {
         super(color1);
     }
@@ -13,7 +13,7 @@ public class Rectangle extends Shape{
         this.height = height;
     }
 
-    public Double area(){
+    public double area(){
         return width * height;
     }
 }

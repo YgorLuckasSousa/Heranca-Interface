@@ -1,6 +1,6 @@
 package entities;
 
-public class Circle extends Shape{
+public class Circle extends AbstractColor{
     public Circle(String color1) {
         super(color1);
     }
